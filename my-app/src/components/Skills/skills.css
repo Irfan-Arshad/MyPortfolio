@@ -52,6 +52,53 @@
     font-weight: 200;
 }
 
+.icons {
+    display: flex;
+    justify-content: center; /* Center the images within the flex container */
+  }
+  
+  .row {
+    margin: 0 0.5rem; /* Reduce the margin between the images */
+    padding-top: 3rem;
+  }
+
+.HTML5img {
+    width: 60%;
+    height: auto;
+}
+
+.CSSimg {
+    width: 60%;
+    height: auto;
+}
+
+.JSimg {
+    width: 60%;
+    height: auto;
+}
+
+.JavaImg {
+    width: 60%;
+    height: auto;
+}
+
+.PHPimg {
+    width: 60%;
+    height: auto;
+}
+
+.SQLimg {
+    width: 60%;
+    height: auto;
+
+}
+
+.CsharpImg {
+    width: 55%;
+    height: auto;
+}
+
+
 @media screen and (max-width: 720px) {
     .skillBarText>p {
         font-size: 2vw;

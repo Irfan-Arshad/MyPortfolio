@@ -3,6 +3,13 @@ import './skills.css';
 import UIDesign from '../../assets/ui-design.png';
 import WebDesign from '../../assets/website-design.png';
 import AppDesign from '../../assets/app-design.png';
+import HTML5img from '../../assets/html5.svg';
+import CSSimg from '../../assets/css3.svg';
+import JSimg from '../../assets/javascript.svg';
+import JavaImg from '../../assets/java.svg';
+import PHPimg from '../../assets/php-original.svg';
+import SQLimg from '../../assets/mysql-original-wordmark.svg';
+import CsharpImg from '../../assets/csharp-original.svg';
 
 
 
@@ -16,27 +23,74 @@ const Skills = () => {
                     <img src={UIDesign} alt="UIDesign" className="skillBarImg"/>
                     <div className="skillBarText">
                         <h2>UI/UX Design </h2>
-                        <p>UI/UX design focuses on the visual elements of a product and the overall user experience.</p>
+                        <p>Focuses on the visual elements of a product and the overall user experience.</p>
                     </div>
                 </div>
                 <div className="skillBar">
                     <img src={WebDesign} alt="WebDesign" className="skillBarImg"/>
                     <div className="skillBarText">
                         <h2>Web Developemnt</h2>
-                        <p>Web development involves creating and maintaining websites or web applications.</p>
+                        <p>Designing, creating and maintaining websites or web applications.</p>
                     </div>
                 </div>
                 <div className="skillBar">
                     <img src={AppDesign} alt="AppDesign" className="skillBarImg"/>
                     <div className="skillBarText">
                         <h2>Software Development</h2>
-                        <p>
-Creating and maintaining software applications through design, coding, and testing.</p>
+                        <p>Creating and maintaining applications through design, coding, and testing.</p>
                     </div>
                 </div>
             </div>
 
+                <section id='skills2'>
+                
+                <span className="skillTitle">Programming Languages</span>
+
+                <div className="icons">
+                    <div className="row">
+                        <img src={HTML5img} alt="HTML5img" className="HTML5img"/>
+                    </div>
+                    <div className="row">
+                        <img src={CSSimg} alt="CSSimg" className="CSSimg"/>
+                    </div>
+                    <div className="row">
+                        <img src={JSimg} alt="JSimg" className="JSimg"/> 
+                    </div>
+                </div>
+
+            </section>
+
+            <section id='skills3'>
+
+                <div className="icons">
+                    <div className="row">
+                        <img src={JavaImg} alt="JavaImg" className="JavaImg"/>
+                    </div>
+                    <div className="row">
+                        <img src={PHPimg} alt="PHPimg" className="PHPimg"/>
+                    </div>
+                    <div className="row">
+                        <img src={SQLimg} alt="SQLimg" className="SQLimg"/>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id='skills4'>
+
+                <div className="icons">
+                    <div className="row">
+                        <img src={CsharpImg} alt="CsharpImg" className="CsharpImg"/>
+                    </div>
+                </div>
+
+</section>
+
+
+
+
         </section>
+        
     );
 }
 
