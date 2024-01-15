@@ -1,2 +1,2 @@
 # MyPortfolio
- Portfolio website showcasing my skills and accolades
+ Portfolio website built in React.js showcasing my skills and accolades
