@@ -12,8 +12,8 @@ const Navbar = () => {
             <img src={logo} alt="Logo" className='Logo'/>
             <div className='navMenu'>
                 <Link className='navMenuListItem'>Home</Link>
-                <Link className='navMenuListItem'>About</Link>
-                <Link className='navMenuListItem'>Portfolio</Link>
+                <Link className='navMenuListItem'>About Me</Link>
+                <Link className='navMenuListItem'>Projects</Link>
             </div>
             <button className='navMenuButton'>
                 <img src={contactImg} alt='' className='navMenuImg' />Contact Me</button>

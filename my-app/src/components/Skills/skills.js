@@ -36,7 +36,7 @@ const Skills = () => {
                 <div className="skillBar">
                     <img src={AppDesign} alt="AppDesign" className="skillBarImg"/>
                     <div className="skillBarText">
-                        <h2>Software Development</h2>
+                        <h2>Software & App Development</h2>
                         <p>Creating and maintaining applications through design, coding, and testing.</p>
                     </div>
                 </div>
