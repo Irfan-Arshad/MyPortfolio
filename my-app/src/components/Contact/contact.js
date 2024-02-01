@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import './contact.css';
 import LinkedInIcon from '../../assets/LinkedInIcon.png';
 import emailjs from '@emailjs/browser';
+// import { Link } from 'react-router-dom';
 
 const Contact = () => {
     const form = useRef();
@@ -31,7 +32,9 @@ const Contact = () => {
                     <textarea type='text' className='message' name='message' rows='5' placeholder='Your Message'/>
                     <button type='submit' value='send' className='submitBtn'>Submit</button>
                     <div className='links'>
+                        <a href="https://www.linkedin.com/in/mohamed-irfan-arshad-5b7556290" target="_blank" rel="noopener noreferrer">
                         <img src={LinkedInIcon} alt='LinkedIn'className='link'/>
+                        </a>
                     </div>
                 </form>
             </div>
