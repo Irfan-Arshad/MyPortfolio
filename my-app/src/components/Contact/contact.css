@@ -36,9 +36,19 @@
     margin: 0.5rem;
     padding: 0.5rem 1rem;
     color: white;
-    border: none;
+    border-color: transparent;
     border-radius: 0.5rem;
     background: rgb(40,40,40);
+}
+
+.name:hover, .email:hover, .message:hover{
+    border-color:  rgb(0, 140, 255);
+    transition: border 0.3s;
+}
+
+.name:focus, .email:focus, .message:focus{
+    outline: none;
+    border-color:  rgb(0, 140, 255);
 }
 
 .submitBtn {

@@ -1,0 +1,21 @@
+#projectsPage {
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    margin-bottom: 20rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectTitle {
+    font-size: 3rem;
+    margin-bottom: 20rem;
+}
+
+.projectDesc {
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
