@@ -9,7 +9,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 const Intro = () => {
   const [typeEffect] = useTypewriter({
-    words: ['Software Developer', 'Web Developer', 'Game Developer'],
+    words: ['Software Developer', 'Web Developer', 'Game Developer', 'App Developer'],
     loop:{},
     typeSpeed: 100,
     deleteSpeed: 40
