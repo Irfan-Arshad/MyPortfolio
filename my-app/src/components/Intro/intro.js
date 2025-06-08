@@ -25,7 +25,7 @@ const Intro = () => {
             document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
           }}>
             <img src={btnImg} alt="Hire Me" className='btnImg' />Hire Me</button>
-          <a href={cv} download="Irfan Arshad - Developer - CV - 2024.pdf">
+          <a href={cv} download="Irfan Arshad - Developer - CV - 2025.pdf">
             <button className='cvBtn' >Download CV</button>
           </a>
         </div>
