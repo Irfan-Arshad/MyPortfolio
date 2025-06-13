@@ -2,7 +2,7 @@ import React from 'react';
 import './intro.css';
 import bg from '../../assets/Me.png';
 import btnImg from '../../assets/hireme.png';
-import cv from '../../assets/Irfan Arshad - Developer - CV - 2024.pdf'
+import cv from '../../assets/Irfan Arshad - Developer - CV - 2025.pdf'
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 // import { useTypewriter } from 'react-simple-typewriter';
 // import { Link } from 'react-scroll';
