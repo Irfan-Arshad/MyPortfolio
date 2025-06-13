@@ -27,11 +27,11 @@ const projectData = [
     description:
       'First-person 3D horror game featuring immersive visuals, puzzles, and AI-driven enemies.',
     features: [
-      'Real-time lighting',
+      '3D Immersive Surround sound',
       'Custom enemy AI',
       'Psychological horror gameplay',
     ],
-    techStack: ['Unity', 'C#', 'Blender', 'FMOD'],
+    techStack: ['Unity', 'C#', '.NET'],
     images: [
       InTheShadows1,
       InTheShadows2,
@@ -45,13 +45,13 @@ const projectData = [
   {
     title: 'Birmingham League – Results Manager',
     description:
-      'A web app for managing league results, standings, and schedules for a local sports league.',
+      'A web app for managing birmighams badminton league results, and live standings.',
     features: [
       'Admin dashboard',
       'Live standings',
-      'Exportable reports',
+      'Algorithims to determine winner',
     ],
-    techStack: ['Python', 'Flask', 'SQLite', 'Chart.js'],
+    techStack: ['PHP','VBS Code', 'HTML', 'CSS'],
     github: 'https://github.com/yourusername/birmingham-league',
   },
   {
@@ -61,9 +61,9 @@ const projectData = [
     features: [
       'Animal listings and filtering',
       'Admin dashboard',
-      'Secure adoption forms',
+      'Focus on UI/UX Design',
     ],
-    techStack: ['PHP', 'Blade', 'Laravel'],
+    techStack: ['PHP', 'SQL', 'Laravel'],
     github: 'https://github.com/yourusername/aston-sanctuary',
   },
 ];
